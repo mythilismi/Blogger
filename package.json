@@ -1,0 +1,26 @@
+{
+  "name": "chat_poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "selvi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-mongo-db": "^2.0.4",
+    "express-sanitizer": "^1.0.5",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.4.0",
+    "ip": "^1.1.5",
+    "mongoose": "^5.9.1",
+    "nexmo": "^2.6.0",
+    "nodemon": "^2.0.2",
+    "socket.io": "^2.3.0"
+  }
+}
