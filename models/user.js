@@ -7,7 +7,7 @@ userSchema = new Schema( {
     password: String,
     mobile:String,
     email:String,
-    friends:[]
+    
 }),
 userSchema.methods.validPassword = function( pwd ) {
     // EXAMPLE CODE!
